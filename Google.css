@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.header {
+    display: flex;
+    font-size: 1.8rem;
+    background-color: honeydew;
+    justify-content: flex-end;
+}
+
+.header a {
+    margin: 5px;
+    padding: 3px;
+}
+
+.Avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.Busqueda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 15%;
+}
+
+.buscar {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    height: 4rem;
+    width: 60%;
+    border: solid white;
+    border-radius: 15px;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.lupa {
+    padding: 2.5%;
+}
+
+input {
+    font-size: 1.8rem;
+    width: 100%;
+    border: none;
+}
+
+.microfono {
+    padding: 2.5%;
+}
+
+.Agregar {
+    align-items: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    height: var(--tile-size);
+    position: relative;
+    padding: 3%;
+}
+
+.Agregar i {
+    display: flex;
+    flex-direction: row;
+    background-color: gainsboro;
+    height: 4rem;
+    width: 4rem;
+    padding: 10px;
+    border-radius: 30px;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.Acceso {
+    font-weight: 400;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 2px 8px;
+    width: 88px;
+    font-size: 12.8px;
+}
+
+
+/* .Navegacion {
+    width: 100%;
+    max-width: 1000px;
+    padding: 12px;
+    display: flex;
+    justify-content: left;
+}
+
+i {
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+input[type="Search"] {
+    font-size: 15px;
+    padding: 10px;
+    padding-right: 500px;
+    border: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: left;
+}
+
+.Busqueda {
+    flex-direction: column;
+    margin: 40px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10rem;
+    color: rgb(179, 72, 72);
+    font-weight: 300px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+input[type="Busqueda"] {
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 500px;
+    border: none;
+    margin: 0 300px;
+} */
